@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Registration System</h1>
+        <p>Students can register their details such as name, class, address, and contact number. Additionally, it
+            provides functionalities for editing and deleting records.</p>
+    </header>
+    <main>
+        <form method="post">
+            <label for="name">Student Name</label>
+            <input type="text" name="name" id="name">
+            <label for="id">Student ID</label>
+            <input type="number" name="stu_id" id="stu_id">
+            <label for="email">Student Email</label>
+            <input type="email" name="email" id="email">
+            <label for="contact">Contact Number</label>
+            <input type="number" name="contact" id="contact">
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <div id="stu_list" class="list"></div>
+    </main>
+</body>
+
+</html>
