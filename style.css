@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: linear-gradient(45deg, red,orange,yellow,green,blue,indigo,violet);
+}
+
 header {
-    /* border: 2px solid black; */
     margin: 0 25%;
     text-align: center;
+    color: white;
 }
 
 header h1{
@@ -20,9 +24,12 @@ header p {
 }
 
 form {
-    margin: 0 20%;
+    margin: 0 30%;
     display: flex;
     flex-direction: column;
+    color: rgb(70, 30, 5);
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 label {
@@ -41,4 +48,13 @@ input {
     margin: 5% 30%;
     padding: 20px;
     font-size: 20px;
+    background-color: rgb(228, 178, 241);
+    color: rgb(45, 48, 50);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: rgb(211, 81, 244);
+    color: aliceblue;
 }
